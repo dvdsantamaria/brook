@@ -663,7 +663,7 @@ img {
   position: absolute;
   inset: 0;
   background: linear-gradient(
-    135deg,
+    0deg,
     rgba(69, 185, 120, 0.92),
     rgba(69, 185, 120, 0.86),
     rgba(31, 63, 53, 0.82)
