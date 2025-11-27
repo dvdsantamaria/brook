@@ -302,6 +302,11 @@ img {
   text-transform: uppercase;
 }
 
+.marquee-group {
+  display: flex;
+  gap: 30px;
+}
+
 .marquee-track span::before {
   content: "•";
   margin-right: 10px;
