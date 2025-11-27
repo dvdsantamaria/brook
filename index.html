@@ -278,14 +278,24 @@
             Share a few details and the team will get in touch to arrange a visit and quote that suits your garden.
           </p>
         </div>
-        <form class="contact-form" action="https://submit-form.com/i9D0gjaid" method="post">
-          <input type="hidden" name="_subject" value="New enquiry from Brook Gardens website" />
-          <input type="hidden" name="_redirect" value="https://brooksgardens.com.au/thank-you" />
     
-          <div style="display:none;">
-            <label for="company">Company</label>
-            <input id="company" name="company" type="text" autocomplete="off" />
-          </div>
+        <form
+          class="contact-form"
+          action="https://submit-form.com/i9D0gjaid"
+          method="post"
+          accept-charset="UTF-8"
+        >
+          <!-- Opcional: subject y redirect -->
+          <input
+            type="hidden"
+            name="_subject"
+            value="New enquiry from Brook Gardens website"
+          />
+          <input
+            type="hidden"
+            name="_redirect"
+            value="https://brooksgardens.com.au/thank-you"
+          />
     
           <div class="form-grid form-grid-compact">
             <div class="form-field">
@@ -305,6 +315,7 @@
               <input id="suburb" name="suburb" type="text" />
             </div>
           </div>
+    
           <div class="form-grid form-grid-wide">
             <div class="form-field">
               <label for="service">Main service needed</label>
@@ -327,9 +338,12 @@
               <textarea id="message" name="message" rows="3"></textarea>
             </div>
           </div>
+    
           <div class="form-actions">
             <button type="submit" class="btn btn-primary">Submit enquiry</button>
-            <p class="form-footnote">By submitting you agree to be contacted by Brook Gardens.</p>
+            <p class="form-footnote">
+              By submitting you agree to be contacted by Brook Gardens.
+            </p>
           </div>
         </form>
       </div>
