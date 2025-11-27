@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thank you · Brook Gardens</title>
+    <meta http-equiv="refresh" content="5; url=index.html" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: var(--bg-body, #f5f5f1);
+        font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        margin: 0;
+        padding: 20px;
+        color: var(--text-main, #1c262b);
+      }
+
+      .thank-you-card {
+        background: var(--bg-light, #ffffff);
+        border-radius: 20px;
+        padding: 40px 32px;
+        max-width: 480px;
+        width: 100%;
+        box-shadow: var(--shadow-soft, 0 18px 40px rgba(15, 23, 42, 0.12));
+        border: 1px solid rgba(0, 0, 0, 0.05);
+      }
+
+      .thank-you-card h1 {
+        margin-top: 0;
+        margin-bottom: 12px;
+        font-size: 28px;
+      }
+
+      .thank-you-card p {
+        margin: 0 0 12px;
+        color: var(--text-soft, #5c6a73);
+      }
+
+      .thank-you-card .btn-primary {
+        margin-top: 10px;
+        text-decoration: none;
+      }
+    </style>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        setTimeout(() => {
+          window.location.href = "index.html";
+        }, 5000);
+      });
+    </script>
+  </head>
+  <body>
+    <div class="thank-you-card">
+      <h1>Thanks for reaching out!</h1>
+      <p>We received your enquiry and Brook Gardens will be in touch soon.</p>
+      <p>You will be redirected to the main site in a few seconds.</p>
+      <a class="btn btn-primary" href="index.html">Return now</a>
+    </div>
+  </body>
+</html>
