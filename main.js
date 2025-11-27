@@ -25,7 +25,8 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 // Simple fake submit for now
 const contactForm = document.querySelector(".contact-form");
 
-if (contactForm) {
+// Only hijack submission when no backend action is configured.
+if (contactForm && !contactForm.hasAttribute("action")) {
   contactForm.addEventListener("submit", event => {
     event.preventDefault();
     alert("Thanks for your enquiry. Brook Gardens will get back to you shortly.");
